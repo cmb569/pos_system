@@ -37,7 +37,7 @@ function App()
       <button class="mango" >Mango</button>
       </div>
       <div class="grid-item">
-      <button class="cotton-candy" >Cotton Candy</button>
+      <button class="cotton-candy" value="5.00" onclick="dis('5.00')" onkeydown="myFunction(event)" >Cotton Candy</button>
       </div>
       <div class="grid-item">
       <button class="pineapple" >Pineapple</button>
