@@ -1,22 +1,59 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+
+function App() 
+
+{
   return (
+
+    
+    
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div class="left-position">
+     <h1> Icy Cone Sweets Treats</h1>
+     <p>
+      <span id="display" class="total-display">0</span>
+     </p>
+     <p>
+      <button class="scoop" id="btn-one-scoop" value="1.00">one-scoop</button>
+      <button class="scoop" id="btn-one-scoop" value="2.00">two-scoops</button>
+      <button class="scoop" id="btn-one-scoop" value="3.00">three-scoops</button>
+     </p>
+     <p>
+     <div class="grid-container">
+      <div class="grid-item">
+      <button class="vanilla" >Vanilla</button>
+      </div>
+      <div class="grid-item">
+      <button class="mocha" >Mocha</button>
+      </div>
+      <div class="grid-item">
+      <button class="strawberry" >Strawberry</button>
+      </div>
+      <div class="grid-item">
+      <button class="mango" >Mango</button>
+      </div>
+      <div class="grid-item">
+      <button class="cotton-candy" >Cotton Candy</button>
+      </div>
+      <div class="grid-item">
+      <button class="pineapple" >Pineapple</button>
+      </div>
+      <div class="grid-item">
+      <button class="cherry">Cherry</button>
+      </div>
+      <div class="grid-item">
+      <button class="watermelon">Watermelon</button>
+      </div>
+      <div class="grid-item">
+      <button class="orange">Orange</button>
+      </div>
+      </div>
+     </p>
+     </div>
       </header>
     </div>
   );
